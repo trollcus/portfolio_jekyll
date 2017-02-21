@@ -1,0 +1,16 @@
+title: marcuspamp portfolio
+email: marcus@mvmarketing
+description: Portfolio of designer Marcus Pamp
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "marcuspamp.se" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: marcuspamp
+github_username:  trollcus
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,31 @@
+$darkgrey: #4D4D4D
+$bgColor: #F6F7F8
+$lightgrey: #A5A5A5
+$suplightgrey: #B0B0B0
+$white: #FFFFFF
+$pink: #ED217C
+$blue: #0075A2
+$navyblue: #2D3047
+$darkblue: #00072D
+
+
+
+
+//------ Mixin -----
+=gradient($from, $to)
+  /* fallback/image non-cover color */
+  background-color: $from
+
+  /* Firefox 3.6+ */
+  background-image: -moz-linear-gradient(left, $from, $to)
+
+  /* Safari 4+, Chrome 1+ */
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($from), to($to))
+
+  /* Safari 5.1+, Chrome 10+ */
+  background-image: -webkit-linear-gradient(left, $from, $to)
+
+  /* Opera 11.10+ */
+  background-image: -o-linear-gradient(left, $from, $to)
+
+// +gradient(#2980b9, #2c3e50)

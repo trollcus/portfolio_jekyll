@@ -1,0 +1,25 @@
+<section class="cases">
+  <div class="container">
+    <div class="text">
+      <h1>Cases</h1>
+      <p>Cases and journal from school and work</p>
+    </div>
+    <div class="caselist" id="caselist">
+      {% for cases in site.categories.cases limit:6 reversed %}
+      <a href="{{site.baseurl}}{{cases.url}}" class="caselink">
+        <div class="casebox">
+        <div class="casetext">
+          <h3 id="caseTitel">{{cases.title}}</h3>
+          <p class="date" id="date">{{cases.day}}/{{cases.month}} - {{cases.year}} </p>
+          <p id="caseDesc">{{cases.meta}}</p>
+
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+    </div>
+
+
+    <a href="{{site.baseurl}}/cases"><button>Read more</button></a>
+  </div>
+</section>

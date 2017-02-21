@@ -1,0 +1,405 @@
+@import variables/colors
+@import fonts/fonts
+
+
+// ------------ Page styling ------------ //
+
+body
+  background-color: $bgColor
+  font-family: 'Rubik', sans-serif
+  margin: 0 0
+  padding-top: 4em
+
+section
+  padding: 5em 0
+  border-bottom: 1px solid rgba(151,151,151,0.49)
+
+a
+  text-decoration: none
+  color: $darkgrey
+
+nav
+  position: fixed
+  min-width: 100%
+  top: 0
+  z-index: 2
+  .brand
+    font-family: 'Coda', cursive
+    margin-left: 2em
+  .container
+    display: flex
+    min-width: 100%
+    height: 4em
+    background-color: $white
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.12)
+
+
+
+  .menuItems
+    display: flex
+    margin-right: 2em
+    align-items: center
+
+    img
+      width: 1em
+      padding: 0 0.6em
+
+      &:last-of-type
+        padding-right: 0
+
+
+    p
+      padding: 0 0.7em
+      color: $lightgrey
+      font-size: 0.9em
+
+      span
+        padding: 0 0.6em
+        color: $suplightgrey
+        font-weight: 200
+
+.pink
+  background-color: $pink
+
+.blue
+  background-color: $blue
+
+.navyblue
+  background-color: $navyblue
+
+.darkblue
+  background-color: $darkblue
+span
+  font-weight: 400
+.underline
+  font-weight: 300
+  text-decoration: underline
+button
+  text-transform: uppercase
+  padding: 0.8em 8em
+  font-size: 1.2em
+  background-color: $white
+  border: 1px solid rgba(221,221,221,0.43)
+  border-radius: 0.4em
+  transition: 0.25s
+  margin-top: 2em
+  &:hover
+    box-shadow: 0px 1px 74px 0px rgba(0,0,0,0.06)
+
+  &:focus
+    outline: none
+
+  &:active
+    background-color: $suplightgrey
+
+.text
+  text-align: center
+  margin-bottom: 0.3em
+
+  h1
+    color: $darkgrey
+    font-size: 2em
+    margin-bottom: -0.2em
+  p
+    color: $lightgrey
+    font-weight: 200
+
+.about
+
+
+  .container
+    display: flex
+    flex-direction: row
+    padding: 4em 5em
+    justify-content: center
+
+    .abouttext
+      width: 42em
+      .abouth1
+        margin-top: 0
+
+      .aboutp
+        color: $darkgrey
+        font-weight: 300
+        line-height: 1.5
+        margin-top: -1em
+
+
+    .pic
+      height: 7em
+      min-width: 7em
+      max-width: 100%
+      border-radius: 4em
+      margin-right: 1.6em
+      margin-top: 0.3em
+
+      background:
+        image: url('../images/FullSizeRender.jpg')
+        size: cover
+        repeat: no-repeat
+
+.visual
+
+  .container
+    display: flex
+    align-items: center
+    flex-direction: column
+
+
+
+  .productlist
+    display: flex
+    flex-direction: row
+    max-width: 70em
+    flex-wrap: wrap
+    justify-content: center
+
+
+
+    .product
+      width: 26em
+      background-color: $white
+      padding: 0.3em
+      border-radius: 15px
+      margin: 0.8em 0.5em
+      transition: 0.25s
+
+      &:hover
+        box-shadow: 0px 1px 74px 0px rgba(0,0,0,0.12)
+        transform: translate(0, -0.1em)
+
+
+
+      .productcolor
+        width: 100%
+        height: 5em
+        border-radius: 15px 15px 0px 0px
+
+    .productpicture
+      height: 6em
+      width: 6em
+      background-color: $suplightgrey
+      border: 6px solid $white
+      border-radius: 30px
+      margin: -3em auto 0 auto
+
+    h3
+      text-align: center
+      margin-top: 0.1em
+      font-weight: 500
+
+    p
+      padding: 0 1em 0 1em
+      margin-top: -0.5em
+      font-style: italic
+      color: $suplightgrey
+      text-align: center
+
+.cases
+  .container
+    display: flex
+    align-items: center
+    flex-direction: column
+
+    .journal
+      max-width: 60% !important
+
+
+
+    .caselist
+      display: flex
+      flex-direction: row
+      max-width: 80%
+      flex-wrap: wrap
+      justify-content: center
+
+      .casebox
+        width: 23em
+        height: 10em
+        background-color: $white
+        text-align: center
+        margin: 0.6em
+        transition: 0.25s
+        z-index: 1
+
+        &:hover
+          box-shadow: 0px 1px 74px 0px rgba(0,0,0,0.12)
+          transform: translate(0, -0.1em)
+          z-index: 0
+
+        .casetext
+          padding-top: 0.4em
+
+          h3
+            font-size: 1.3em
+            margin-bottom: 0
+          .date
+            font:
+              size: 1em
+              style: italic
+              weight: 200
+            color: $lightgrey
+
+footer
+  display: flex
+  align-items: center
+  flex-direction: column
+  margin-top: 2em
+
+  .footerText
+    color: $lightgrey
+    font-weight: 500
+    font-size: 0.8em
+    margin-bottom: 0.6em
+  .footerItems
+    margin-bottom: 0.6em
+    img
+      width: 1em
+      padding: 0 0.6em
+
+
+.postTemplate
+  margin: 0em auto
+  background-color: $white
+  width: 60%
+
+
+  padding: 0.6em 2em
+
+  border-radius: 0.3em
+
+  img
+    width: 20em
+    display: block
+    margin: 0 auto
+
+  .img-inline
+    display: inline-block
+
+  .img-full
+    width: 80%
+
+
+
+  iframe
+    justify-content: center
+  #ss17
+    width: 25%
+  .imgDesc
+    text-align: center
+    opacity: 0.6
+    font-size: 0.85em
+    margin-top: 0.3em
+
+  .descPost
+    margin-top: -0.2em
+
+  hr
+    opacity: 0.3
+    width: 80%
+    margin: 2em auto
+
+  .datePost
+    font-style: italic
+    color: $lightgrey
+    font-size: 0.9em
+    margin-top: -0.3em
+
+  .personas
+    display: flex
+    justify-content: center
+    flex-direction: column
+
+    p
+      text-align: center
+      opacity: 0.6
+      font-size: 0.85em
+      margin: 0 auto
+
+
+
+    .imageRow
+      flex-direction: row
+      flex-wrap: wrap
+
+      img
+        flex-direction: row
+        margin: 0 0.2em
+        height: 33%
+        width: 32%
+
+
+
+// --------------- Media Q ----------------
+
+@media (max-width: 886px)
+  .product
+    width: 22em !important
+
+// @media (max-width: 1108px)
+//   .caselist
+//     max-width: 95% !important
+//   .casebox
+//     width: 18em !important
+//     .casetext
+//       padding-top: 0.6em !important
+
+// @media (max-width: 1108px)
+//   .caselist
+//     max-width: 95% !important
+//   .casebox
+//     width: 25em !important
+//     .casetext
+//       padding-top: 0.6em !important
+@media (max-width: 680px)
+  .about
+    .container
+      display: flex
+      flex-direction: column
+      padding: 1em 2em
+      justify-content: center
+      .abouttext
+        width: auto
+      .pic
+        height: 8em
+        min-width: 8em
+        max-width: 8em
+        border-radius: 4em
+        margin: -2em auto 2em auto
+
+        background:
+          image: url('../images/FullSizeRender.jpg')
+          size: cover
+          repeat: no-repeat
+
+@media (max-width: 758px)
+  .product
+    width: 26em !important
+@media (max-width: 465px)
+  .product
+    width: 21em !important
+  button
+    padding: 0.8em 6.5em
+    font-size: 1em
+@media (min-width: 1910px)
+  .caselist
+    display: flex
+    flex-direction: row-reverse
+    max-width: 60% !important
+
+@media (max-width: 547px)
+  .postTemplate
+    width: 80%
+    img
+      width: 14em
+@media (max-width: 420px)
+  nav
+    .menuItems
+      img
+        display: none
+@media (max-width: 350px)
+  .postTemplate
+    width: 75%
