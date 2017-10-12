@@ -1,0 +1,35 @@
+<section class="visual">
+  <div class="container">
+    <div class="text">
+      <h1>Visual ideas</h1>
+      <p>Visual ideas about some of my favourite products</p>
+    </div>
+    <div class="productlist">
+      {% for visual in site.categories.visual-ideas reversed %}
+      <a href="{{site.baseurl}}{{visual.url}}" class="caselink">
+        <div class="product">
+          <div class="productcolor {{visual.color}}"></div>
+            <div class="productpicture" style="background-image: url('{{site.baseurl}}/images/{{visual.image}}');"></div>
+            <h3>{{visual.title}}</h3>
+            <p>{{visual.meta}}</p>
+
+        </div>
+    </a>
+    {% endfor %}
+    </div>
+  </div>
+  <div class="linkCenter">
+    <a class="postBack" href="{{site.baseurl}}/#visualSection">
+
+
+      <svg width="20px" height="9px" viewBox="0 0 20 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+          <desc>Created with Sketch.</desc>
+          <defs></defs>
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <path d="M0,4.5 L9,0 L9,9 L0,4.5 Z M9,3 L20,3 L20,6 L9,6 L9,3 Z" id="Combined-Shape" fill="#4D4D4D"></path>
+          </g>
+      </svg>
+      <p>Back to Home</p></a>
+  </div>
+</section>

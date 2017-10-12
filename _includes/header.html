@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Marcus Pamp</title>
+    <title>Marcus Pamp | {{layout.title}}</title>
     <link rel="stylesheet" href="{{site.baseurl}}/css/style-min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% seo %}
   </head>
   <body>
     <nav class="navbar">
@@ -13,10 +14,11 @@
           <a href="/{{site.baseurl}}">Marcus Pamp</a>
         </p>
         <div class="menuItems">
-          <img src="{{site.baseurl}}/images/linkedin.svg" alt="linkedin" />
-          <img src="{{site.baseurl}}/images/instagram.svg" alt="instagram" />
-          <img src="{{site.baseurl}}/images/twitter.svg" alt="twitter" />
-          <p><span>|</span> Contact</p>
+          <a href="https://www.linkedin.com/in/marcus-johansson-15b284108/"><img src="{{site.baseurl}}/images/linkedin.svg" alt="linkedin" /></a>
+          <!-- <a href="https://www.instagram.com/marcuusen/"><img src="{{site.baseurl}}/images/instagram.svg" alt="instagram" /></a> -->
+          <a href="https://twitter.com/marcuspamp"><img src="{{site.baseurl}}/images/twitter.svg" alt="twitter" /></a>
+          <a href="mailto:marcus@movemarketing.se?subject=marcuspamp.se%20Portfolio"><img src="{{site.baseurl}}/images/mail.svg" alt="mail"></a>
+          <p class="contactText"><span>|</span> Contact</p>
         </div>
       </div>
     </nav>

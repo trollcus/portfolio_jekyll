@@ -1,16 +1,25 @@
-title: marcuspamp portfolio
-email: marcus@mvmarketing
+title: Marcuspamp.se portfolio
+email: marcus@movemarketing
 description: Portfolio of designer Marcus Pamp
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "marcuspamp.se" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://marcuspamp.se" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: marcuspamp
 github_username:  trollcus
+author: Marcus Pamp
+social:
+  name: Marcus Pamp
+  links:
+    - https://twitter.com/marcuspamp
+    - https://www.linkedin.com/in/marcus-johansson-15b284108/
+    - https://github.com/trollcus
+lang: en_US
 
 # Build settings
 markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock

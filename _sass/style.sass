@@ -4,6 +4,22 @@
 
 // ------------ Page styling ------------ //
 
+.text-center
+  text-align: center
+
+.quote
+  text-align: center
+  color: grey
+  font-size: 1.3em
+  font-style: italic
+  padding: 0.7em 0.7em
+
+  background:
+    image: url('../images/quote.svg')
+    repeat: no-repeat
+    position: left top
+    size: 3.5em
+
 body
   background-color: $bgColor
   font-family: 'Rubik', sans-serif
@@ -42,13 +58,11 @@ nav
     display: flex
     margin-right: 2em
     align-items: center
-
-    img
+    a, img
       width: 1em
       padding: 0 0.6em
 
-      &:last-of-type
-        padding-right: 0
+
 
 
     p
@@ -66,12 +80,25 @@ nav
 
 .blue
   background-color: $blue
+.turqoise
+  background-color: #18B4A3
 
 .navyblue
   background-color: $navyblue
 
 .darkblue
   background-color: $darkblue
+.purple
+  background-color: #46195C
+.yellow
+  background-color: #FAD85F
+.green
+  background-color: #21D37D
+.darkgreen
+  background-color: #18B455
+.rounded
+  border-radius: 7px
+
 span
   font-weight: 400
 .underline
@@ -79,6 +106,7 @@ span
   text-decoration: underline
 button
   text-transform: uppercase
+  cursor: pointer
   padding: 0.8em 8em
   font-size: 1.2em
   background-color: $white
@@ -185,15 +213,18 @@ button
       border: 6px solid $white
       border-radius: 30px
       margin: -3em auto 0 auto
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: center center
 
     h3
       text-align: center
-      margin-top: 0.1em
+      margin-top: 0.8em
       font-weight: 500
 
     p
       padding: 0 1em 0 1em
-      margin-top: -0.5em
+      margin-top: -0.8em
       font-style: italic
       color: $suplightgrey
       text-align: center
@@ -259,17 +290,34 @@ footer
     img
       width: 1em
       padding: 0 0.6em
+.linkCenter
+  display: flex
+  align-items: center
+  justify-content: center
+  margin-top: 2.5em
+  flex-direction: row
+.postBack
+  font-size: 16px
+  font-weight: 300
+  text-decoration: underline
+  display: flex
+  flex-direction: row
+  align-items: center
+  p
+    padding: 0 0.3em
 
 
 .postTemplate
   margin: 0em auto
   background-color: $white
   width: 60%
-
-
   padding: 0.6em 2em
-
   border-radius: 0.3em
+  p
+    letter-spacing: 0.05em
+    line-height: 1.5em
+    font-weight: 400
+    color: #6C6C6C
 
   img
     width: 20em
@@ -281,7 +329,7 @@ footer
 
   .img-full
     width: 80%
-
+    border-radius: 7px
 
 
   iframe
@@ -293,6 +341,7 @@ footer
     opacity: 0.6
     font-size: 0.85em
     margin-top: 0.3em
+    margin-bottom: 2.5em
 
   .descPost
     margin-top: -0.2em
@@ -330,6 +379,41 @@ footer
         margin: 0 0.2em
         height: 33%
         width: 32%
+
+video
+  border-radius: 7px
+  margin: 0 auto
+  display: block
+  source
+    margin: 0 auto
+.visualPage
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-direction: column
+  color: white
+  padding: 3em 0 8em 0
+  text-align: center
+  h1
+    &:first-child
+      padding: 0 0.5em
+  .descPost
+    padding: 0 0.5em
+
+.pagination-links
+  color: #EFEFEF
+.visualPost
+  margin-top: -10em
+  box-shadow: 0 0 24px 0 rgba(0,0,0,0.08)
+  video
+    border-radius: 7px
+    margin: 0 auto
+    display: block
+    source
+      margin: 0 auto
+.Extra
+  font-weight: 300
+  font-style: italic
 
 
 
@@ -396,10 +480,12 @@ footer
     img
       width: 14em
 @media (max-width: 420px)
-  nav
-    .menuItems
-      img
-        display: none
+  .contactText
+    display: none
+  // nav
+  //   .menuItems
+  //     img
+  //       display: none
 @media (max-width: 350px)
   .postTemplate
     width: 75%
