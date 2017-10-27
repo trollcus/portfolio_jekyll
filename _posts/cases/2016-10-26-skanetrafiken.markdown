@@ -7,7 +7,7 @@ month: 10
 day: 26
 meta: "Adding new features to the Skånetrafiken app"
 description: "From assignment A2 at Malmö Högskola. I wanted to improve and add features to Skånetrafikens app. Below you can see my case study for just that."
-categories: cases
+categories: draft
 ---
 <h3>Personas</h3>
 <div class="imageRow">

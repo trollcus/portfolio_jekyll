@@ -4,7 +4,7 @@ title:  "Realtor redesign"
 date:   2016-10-26 14:16:49 +0200
 year: 2017
 month: 10
-day: 10
+day: 17
 meta: "Redesigning Danfors Fastighetsförmedling"
 description: "Complete redesign of the realtor agency Danfors Fastighetsförmedlings website located here on the west coast of Sweden"
 categories: cases
@@ -116,6 +116,7 @@ The most advanced amongst all was the data import. After coding the functionalit
 <h4>7. Results this far & Reflections</h4>
 <p>As of October 2017, the website is not live yet because of the new database software. I'm waiting for the new data. In the meantime I'm working on finalizing the subpages and making the site more SEO friendly. Website speed is also something I'm working to optimize. </p>
 <h5>7.1 Behaviour of sections</h5>
+<h5>Navigation bar</h5>
 <p>
 The navigation bar had to switch from it transparent background to something of color. This happens with an offset of pixels where it knows when to switch.
 </p>
@@ -124,6 +125,7 @@ The navigation bar had to switch from it transparent background to something of 
   Your browser does not support the video tag.
 </video><br>
 <hr>
+<h5>Call to actions</h5>
 <p>
 CTAs is something as previously stated used throughout the page. I wanted to create one that pops up automatically without disturbing the users experience. As the nav executes after X pixels, this works the same.
 </p>
@@ -131,6 +133,7 @@ CTAs is something as previously stated used throughout the page. I wanted to cre
   <source src="{{site.baseurl}}/images/danfors/behaviour-cta.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video><br><hr>
+<h5>Ease scroll to top</h5>
 <p>
 A back button is something that is a must on content heavy sites. The user grows tired of scrolling and wants an easy way of accessing navigation. This can be altered in the future to further enhance the experience.
 </p>
@@ -138,10 +141,20 @@ A back button is something that is a must on content heavy sites. The user grows
   <source src="{{site.baseurl}}/images/danfors/behaviour-top.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video><br><hr>
+<h5>Mobile version navbar</h5>
 <p>
-Demonstration of mobile version of navbar
+As I have experimented with lots of cool concept navbars before, this time I went for the Bootstrap version because of limited time and to support all browser. This webpage does have to support at least IE 11+ which holds me back while developing.
 </p>
 <video id="video" controls autoplay muted loop width="40%" height="40%" style="margin:0 auto;">
   <source src="{{site.baseurl}}/images/danfors/behaviour-nav-mobile.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video><br><hr>
+
+<h5>Search</h5>
+<p>
+The search function is altered in order to search the Advanced custom fields on the website. It also uses AJAX to search which means that no need for the page to reload which in turn gives a more seamless interaction.
+</p>
+<video id="video" controls autoplay muted loop width="100%" height="100%">
+  <source src="{{site.baseurl}}/images/danfors/behaviour-search.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video><br><hr>
