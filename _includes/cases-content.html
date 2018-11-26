@@ -5,13 +5,14 @@
       <p>Cases and journal from school and work</p>
     </div>
     <div class="caselist" id="caselist">
-      {% for cases in site.categories.cases limit:6 reversed %}
+      {% for cases in site.categories.cases-featured limit:4 reversed %}
       <a href="{{site.baseurl}}{{cases.url}}" class="caselink">
         <div class="casebox">
+          <div class="caseImg" style="background-image: url('{{site.baseurl}}/images/{{cases.image}}');"></div>
         <div class="casetext">
           <h3 id="caseTitel">{{cases.title}}</h3>
           <p class="date" id="date">{{cases.day}}/{{cases.month}} - {{cases.year}} </p>
-          <p id="caseDesc">{{cases.meta}}</p>
+          <p id="caseDesc">{{cases.category}}</p>
 
         </div>
       </div>

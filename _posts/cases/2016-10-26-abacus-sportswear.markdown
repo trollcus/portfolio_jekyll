@@ -8,9 +8,11 @@ day: 16
 meta: "Freelancing for 1,5 years"
 description: "After one and a half year of consulting/freelancing for Abacus sportswear it was time to journal and show different work I had performed"
 categories: cases
+category: Work
+image: ""
 ---
 <h3>What is Abacus Sportswear?</h3>
-Abacus sportswear is a famous clothing brand in the world of Golfing. They are famous for providing great Swedish quality with a reasonable price tag. They are among the top brands in the world of golf and are amongst the leading brands with their technology regarding rain and wind.
+Abacus sportswear is a clothing brand in the world of Golfing. They are famous for providing great Swedish quality with a reasonable price tag. They are among the top brands in the world of golf and are amongst the leading brands with their technology regarding rain and wind.
 
 Visit their website here: <a href="http://abacussportswear.com/">Abacus sportswear</a>
 <h3>General notes</h3>
@@ -28,4 +30,4 @@ Multiple times I was asked to create ads on a very limited timeframe. These were
 </video>
 <hr>
 <br>
-<h3>Print design</h3>
+<!-- <h3>Print design</h3> -->

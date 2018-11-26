@@ -1,0 +1,87 @@
+---
+layout: post
+title:  "Dietero"
+date:   2016-10-26 14:16:49 +0200
+year: 2018
+month: 06
+day: 01
+meta: "Changing lifestyle of expecting mothers"
+description: "Creating a service for expecting mothers during the course 'Service design' at Malmö University"
+pageurl: "https://vimeo.com/301678302"
+categories: cases cases-featured
+category: School
+image: "servicedesign/notice.jpg"
+---
+<h2>Final artefact</h2>
+<h5>Video prototype</h5>
+<iframe src="https://player.vimeo.com/video/301678302" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+This is the final video prototype for our concept Dietero. Dietero is a service for expecting mothers to match and find other expecting mothers. Why should this service exist? This is explained throughout the post. If curious you can find our full report <a href="{{site.baseurl}}/images/servicedesign/final_report-changing-lifestyle.pdf" style="text-decoration:underline;">HERE</a>.
+
+<h3>Introduction</h3>
+Writing this is a couple of months after completing this project. I will try to remember each process the best I can but this text might be updated in the future if I find more documentation.
+
+For our course <a href="https://edu.mau.se/en/Course/KD411B?v=1&full=true">Service Design</a> we were tasked with creating a personalized prenatal care service in Sweden. This was in cooperation with <a href="https://www.skane.se/">Region Skåne</a> and the end goal of the project was to implement technology in maternity care resulting in more equal care for the expecting mothers.
+
+During this project we used various user research methods to extract information in order to build a design space. We also used Service Design principles in order to construct the service itself.
+
+<h3>Assignment</h3>
+Our group received the assignment of helping expecting mothers to adopt a healthier lifestyle. This could mean anything as each situation is unique. We learned that a mothers health during her pregnancy plays a key role in the well-being of the newborn and could further influence health during childhood and adulthood.
+
+A bodily and lifestyle change is inevitable for expecting mothers, our issue was the mothers to receive the correct information at the correct time. What we found out was that motivational talks and sharing troubles with others helps creating an acceptance of changing habits, thus fueling motivation for the mothers to make the change.
+
+<h3>User research</h3>
+Our exploratory approach to gain an awareness was to conduct surveys in order to build interviewing questions. The surveys were sent to existing local mother groups in Skåne on facebook. After analysing the data, Semi-structured interviews were held with a large spectrum in mind. This spectrum would be any possible stakeholder for our service. The interviewees were ranging between during and post-pregnancy, midwives, coordinating midwives, midwife educators and future fathers.
+After the data gathering and during our design process we used co-creation with various stakeholders to gather insights into what they felt what was important for the service.
+
+<h3>Data</h3>
+All this data meant breaking it down and analysing. We structured user journeys, timelines, service blueprints and stakeholder maps. This helped us extracting key points that were important for our design process. The key points were: Stress and mental health can have an impact of the well-be- ing of the foetus <br> Well-timed understandable information is crucial to ensure a calm state of mind for pregnant women <br> Motivational interviewing is a current tool, used for reflection on habits and lifestyle without a criticising voice from the midwife.
+
+<h3>Dietero</h3>
+Our proposal of solution is called Dietero and is aimed towards expecting mothers that wants to connect with other expecting mothers that would like to change their lifestyle habits. The service creates an open environment where the mothers can share their struggles in a safe space and help each other reach their goals. The service matches mothers and helps set up goals such as eating better or stop smoking. The groups works collectively to reach their goals.
+
+The service has a connected applications as a tool. I built all of the user interface for the application and is demonstrated below.
+
+<h5>Login and registration</h5>
+<iframe src="https://player.vimeo.com/video/301677486" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+This is the registration pattern for the expecting mother. Register via BankID which is government controlled and is an online ID. Here the expecting mother puts in the habits she wants to change. The habits are figured out during the first midwife meeting.
+
+<img src="{{site.baseurl}}/images/servicedesign/bankid.jpg" alt="BankID login page" class="img-full"/>
+<p class="imgDesc">Login page</p>
+<img src="{{site.baseurl}}/images/servicedesign/essentials1.jpg" alt="Registration" class="img-full"/>
+<p class="imgDesc">Registration page 1 | Habits page</p>
+<img src="{{site.baseurl}}/images/servicedesign/essentials.jpg" alt="Registration" class="img-full"/>
+<p class="imgDesc">Registration page 2</p>
+<img src="{{site.baseurl}}/images/servicedesign/working.jpg" alt="Registration" class="img-full"/>
+<p class="imgDesc">Submission of info feedback</p>
+
+<h5>Match and meeting</h5>
+<iframe src="https://player.vimeo.com/video/301677498" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+This is the match and meeting screens where the user picks a time for meeting. This screen is showed for every expecting mother in the created group. They pick the times that are the most suitable. They then get a confirmation when the time is set.
+
+<img src="{{site.baseurl}}/images/servicedesign/match.jpg" alt="Matching mothers screen 1" class="img-full"/>
+<p class="imgDesc">Meeting screen 1</p>
+<img src="{{site.baseurl}}/images/servicedesign/match1.jpg" alt="Matching mothers screen 2" class="img-full"/>
+<p class="imgDesc">Meeting screen confirmation</p>
+
+<h5>Home and assignment page</h5>
+<img src="{{site.baseurl}}/images/servicedesign/Mockup_first_screen.jpg" alt="Home screen" class="img-full"/>
+<p class="imgDesc">Home screen</p>
+<img src="{{site.baseurl}}/images/servicedesign/first_screen_full.png" style="width:40%" alt="Full home screen" class="img-full"/>
+<p class="imgDesc">Full home screen</p>
+<img src="{{site.baseurl}}/images/servicedesign/Mockup_info_screen.jpg" alt="Habit screen" class="img-full"/>
+<p class="imgDesc">Habit screen</p>
+<img src="{{site.baseurl}}/images/servicedesign/info_screen movie.png" style="width:40%" alt="Full habit screen" class="img-full"/>
+<p class="imgDesc">Full habit screen</p>
+
+<iframe src="https://player.vimeo.com/video/301677530" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<h5>Home page and notification</h5>
+<img src="{{site.baseurl}}/images/servicedesign/notice.jpg" alt="Notification screen" class="img-full"/>
+<p class="imgDesc">Notification screen</p>
+<iframe src="https://player.vimeo.com/video/301677513" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<h3>Reflection</h3>
+Fun project where I got to expand on my user research skills while at the same time combining it with my practical skills creating a service that could be implemented to existing systems within Region Skåne. The midvives interviewed and other stakeholders thought that the service could mean bringing positive change for the expecting mothers which was great feedback.

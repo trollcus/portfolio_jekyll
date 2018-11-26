@@ -1,13 +1,16 @@
 ---
 layout: post
-title:  "Realtor redesign"
+title:  "Danfors Fastighetsförmedling"
 date:   2016-10-26 14:16:49 +0200
 year: 2017
 month: 10
 day: 17
 meta: "Redesigning Danfors Fastighetsförmedling"
 description: "Complete redesign of the realtor agency Danfors Fastighetsförmedlings website located here on the west coast of Sweden"
-categories: cases
+pageurl: "http://www.danfors.se"
+categories: cases cases-featured
+category: Work
+image: "danfors/sketch.png"
 ---
 <h3>1. Introduction & brief</h3>
 <p>
@@ -113,8 +116,6 @@ After the front page was a static site I started converting it to a wordpress th
 <br>
 The most advanced amongst all was the data import. After coding the functionality of download each and every piece of information and placing it in the right fields Danfors decided to change its supplier of software. This challenged things massively for me since the new suppliers required much more safety to access the data. This data was also just a list with IDs of the objects which were needed when accessing more data in other lists which made things very complex.  
 </p>
-<h4>7. Results this far & Reflections</h4>
-<p>As of October 2017, the website is not live yet because of the new database software. I'm waiting for the new data. In the meantime I'm working on finalizing the subpages and making the site more SEO friendly. Website speed is also something I'm working to optimize. </p>
 <h5>7.1 Behaviour of sections</h5>
 <h5>Navigation bar</h5>
 <p>
@@ -158,3 +159,6 @@ The search function is altered in order to search the Advanced custom fields on 
   <source src="{{site.baseurl}}/images/danfors/behaviour-search.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video><br><hr>
+
+<h4>7. Results this far & Reflections</h4>
+<p>The site is live and active over at <a href="http://www.danfors.se">Danfors.se</a>. Go have a look! </p>
