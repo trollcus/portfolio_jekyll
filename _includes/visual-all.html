@@ -9,7 +9,8 @@
       <a href="{{site.baseurl}}{{visual.url}}" class="caselink">
         <div class="product">
           <div class="productcolor {{visual.color}}"></div>
-            <div class="productpicture" style="background-image: url('{{site.baseurl}}/images/{{visual.image}}');"></div>
+            <img class="productpictureIMG lazyload" data-src="{{site.baseurl}}/images/{{visual.image}}" />
+            <!-- <div class="productpicture" style="background-image: url('{{site.baseurl}}/images/{{visual.image}}');"></div> -->
             <h3>{{visual.title}}</h3>
             <p>{{visual.meta}}</p>
 

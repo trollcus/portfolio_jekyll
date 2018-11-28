@@ -7,7 +7,7 @@ month: 10
 day: 16
 meta: "Freelancing for 1,5 years"
 description: "After one and a half year of consulting/freelancing for Abacus sportswear it was time to journal and show different work I had performed"
-categories: cases
+categories: draft
 category: Work
 focus: Design & Marketing
 image: ""

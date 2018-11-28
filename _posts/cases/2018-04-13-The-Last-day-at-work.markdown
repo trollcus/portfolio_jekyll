@@ -33,7 +33,7 @@ We started brainstorming around the concept of walking through digital space wit
 </video><br>
 <p class="imgDesc">First Concept</p>
 
-<img src="{{site.baseurl}}/images/gamesnplay/shoes.jpg" alt="Materials" class="img-full"/>
+<img data-src="{{site.baseurl}}/images/gamesnplay/shoes.jpg" alt="Materials" class="img-full lazyload"/>
 <p class="imgDesc">Pressure sensitive shoes</p>
 
 Instead of using digital rooms and pure sound as it was to confusing while testing we started to try out a whack-a-mole type of gameplay. We put out tape on the floor and started playing sounds to see if you could figure out which square was which while trying to stomp on it.
@@ -46,7 +46,7 @@ Instead of using digital rooms and pure sound as it was to confusing while testi
 
 We tried out multiple different amount of squares (9x9, 4x4 etc) in combination of trying to figure out and remembering which sound belonged to which square. These sounds were determined by a Gamemaster who supervised each game.
 
-<img src="{{site.baseurl}}/images/gamesnplay/gamemaster.jpg" alt="Gamemaster controlling sounds" class="img-full"/>
+<img data-src="{{site.baseurl}}/images/gamesnplay/gamemaster.jpg" alt="Gamemaster controlling sounds" class="img-full lazyload"/>
 <p class="imgDesc">Gamemaster controlling sounds</p>
 
 We started to have some kind of breakthrough while at the same time it was hard to remember which sound was which. However we ran out of time and it was time to present what we had at the time and get some consulting of how we should proceed.
@@ -58,7 +58,7 @@ From the beginning there was pressure sensors in the shoes. This was transformed
   <source src="https://media.giphy.com/media/WxTOcUaZlEgeKO4jlx/giphy.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video><br>
-<img src="{{site.baseurl}}/images/gamesnplay/material.jpg" alt="Materials" class="img-full"/>
+<img data-src="{{site.baseurl}}/images/gamesnplay/material.jpg" alt="Materials" class="img-full lazyload"/>
 <p class="imgDesc">Trying out array of materials</p>
 
 Our plates were developed over a span of two weeks of just iterating the different prototypes. Testing with users combined with the software development (More on that later) they were transformed from one day to another.

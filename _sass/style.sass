@@ -194,6 +194,9 @@ button
       border-radius: 15px
       margin: 0.8em 0.5em
       transition: 0.25s
+      display: flex
+      align-items: center
+      flex-direction: column
 
       &:hover
         box-shadow: 0px 1px 74px 0px rgba(0,0,0,0.12)
@@ -228,6 +231,19 @@ button
       font-style: italic
       color: $suplightgrey
       text-align: center
+
+.productpictureIMG
+  height: 6em
+  width: 6em
+  object-fit: cover
+  object-position: top
+  background-color: $suplightgrey
+  border: 6px solid $white
+  border-radius: 30px
+  margin: -3em auto 0 auto
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center center
 
 .postImageCases
   position: absolute
@@ -300,6 +316,17 @@ button
               style: italic
               weight: 200
             color: $lightgrey
+
+.caseImgIMG
+  width: 100%
+  background-color: #FAFAFA
+  max-height: 12em
+  min-height: 12em
+  background-position: top center
+  background-repeat: no-repeat
+  background-size: cover
+  object-fit: cover
+  object-position: top
 
 footer
   display: flex

@@ -8,7 +8,8 @@
       {% for cases in site.categories.cases-featured limit:4 reversed %}
       <a href="{{site.baseurl}}{{cases.url}}" class="caselink">
         <div class="casebox">
-          <div class="caseImg" style="background-image: url('{{site.baseurl}}/images/{{cases.image}}');"></div>
+          <img class="caseImgIMG lazyload" data-src="{{site.baseurl}}/images/{{cases.image}}" />
+          <!-- <div class="caseImg" style="background-image: url('{{site.baseurl}}/images/{{cases.image}}');"></div> -->
         <div class="casetext">
           <h3 id="caseTitel">{{cases.title}}</h3>
           <p class="focus">{{cases.focus}}</p>

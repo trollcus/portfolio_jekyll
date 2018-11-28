@@ -48,13 +48,13 @@ The service has a connected applications as a tool. I built all of the user inte
 
 This is the registration pattern for the expecting mother. Register via BankID which is government controlled and is an online ID. Here the expecting mother puts in the habits she wants to change. The habits are figured out during the first midwife meeting.
 
-<img src="{{site.baseurl}}/images/servicedesign/bankid.jpg" alt="BankID login page" class="img-full"/>
+<img data-src="{{site.baseurl}}/images/servicedesign/bankid.jpg" alt="BankID login page" class="img-full lazyload"/>
 <p class="imgDesc">Login page</p>
-<img src="{{site.baseurl}}/images/servicedesign/essentials1.jpg" alt="Registration" class="img-full"/>
+<img data-src="{{site.baseurl}}/images/servicedesign/essentials1.jpg" alt="Registration" class="img-full lazyload"/>
 <p class="imgDesc">Registration page 1 | Habits page</p>
-<img src="{{site.baseurl}}/images/servicedesign/essentials.jpg" alt="Registration" class="img-full"/>
+<img data-src="{{site.baseurl}}/images/servicedesign/essentials.jpg" alt="Registration" class="img-full lazyload"/>
 <p class="imgDesc">Registration page 2</p>
-<img src="{{site.baseurl}}/images/servicedesign/working.jpg" alt="Registration" class="img-full"/>
+<img data-src="{{site.baseurl}}/images/servicedesign/working.jpg" alt="Registration" class="img-full lazyload"/>
 <p class="imgDesc">Submission of info feedback</p>
 
 <h5>Match and meeting</h5>
@@ -62,25 +62,25 @@ This is the registration pattern for the expecting mother. Register via BankID w
 
 This is the match and meeting screens where the user picks a time for meeting. This screen is showed for every expecting mother in the created group. They pick the times that are the most suitable. They then get a confirmation when the time is set.
 
-<img src="{{site.baseurl}}/images/servicedesign/match.jpg" alt="Matching mothers screen 1" class="img-full"/>
+<img data-src="{{site.baseurl}}/images/servicedesign/match.jpg" alt="Matching mothers screen 1" class="img-full lazyload"/>
 <p class="imgDesc">Meeting screen 1</p>
-<img src="{{site.baseurl}}/images/servicedesign/match1.jpg" alt="Matching mothers screen 2" class="img-full"/>
+<img data-src="{{site.baseurl}}/images/servicedesign/match1.jpg" alt="Matching mothers screen 2" class="img-full lazyload"/>
 <p class="imgDesc">Meeting screen confirmation</p>
 
 <h5>Home and assignment page</h5>
-<img src="{{site.baseurl}}/images/servicedesign/Mockup_first_screen.jpg" alt="Home screen" class="img-full"/>
+<img data-src="{{site.baseurl}}/images/servicedesign/Mockup_first_screen.jpg" alt="Home screen" class="img-full lazyload"/>
 <p class="imgDesc">Home screen</p>
-<img src="{{site.baseurl}}/images/servicedesign/first_screen_full.png" style="width:40%" alt="Full home screen" class="img-full"/>
+<img data-src="{{site.baseurl}}/images/servicedesign/first_screen_full.png" style="width:40%" alt="Full home screen" class="img-full lazyload"/>
 <p class="imgDesc">Full home screen</p>
-<img src="{{site.baseurl}}/images/servicedesign/Mockup_info_screen.jpg" alt="Habit screen" class="img-full"/>
+<img data-src="{{site.baseurl}}/images/servicedesign/Mockup_info_screen.jpg" alt="Habit screen" class="img-full lazyload"/>
 <p class="imgDesc">Habit screen</p>
-<img src="{{site.baseurl}}/images/servicedesign/info_screen movie.png" style="width:40%" alt="Full habit screen" class="img-full"/>
+<img data-src="{{site.baseurl}}/images/servicedesign/info_screen movie.png" style="width:40%" alt="Full habit screen" class="img-full lazyload"/>
 <p class="imgDesc">Full habit screen</p>
 
 <iframe src="https://player.vimeo.com/video/301677530" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <h5>Home page and notification</h5>
-<img src="{{site.baseurl}}/images/servicedesign/notice.jpg" alt="Notification screen" class="img-full"/>
+<img data-src="{{site.baseurl}}/images/servicedesign/notice.jpg" alt="Notification screen" class="img-full lazyload"/>
 <p class="imgDesc">Notification screen</p>
 <iframe src="https://player.vimeo.com/video/301677513" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 

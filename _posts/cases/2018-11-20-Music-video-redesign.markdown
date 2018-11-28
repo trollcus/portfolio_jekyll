@@ -3,9 +3,9 @@ layout: post
 title:  "Kanye West - Music video"
 date:   2016-10-26 14:16:49 +0200
 year: 2018
-month: 06
-day: 01
-meta: "Changing lifestyle of expecting mothers"
+month: 11
+day: 27
+meta: "Music video for Kanye West's song Hey Mama"
 description: "Creating a music video for Kanye West's 'Hey Mama'. This was part of the course Experimental Digital Art at Georgia Institute of Technology"
 pageurl: "https://vimeo.com/302930613"
 categories: cases cases-featured
@@ -33,12 +33,12 @@ We knew that we wanted to portray these mothers in a respectful way. We talked a
 
 We wanted to incorporate Kanye's own story in a more abstract way. It was done via illustrations. We drew inspiration from one of Kanye's collaborators Takashi Murakami that has drawn Kanye's album covers before and drawing the famous bear.
 
-<img src="{{site.baseurl}}/images/musicvideo/kanyebear.jpg" alt="Takashi" class="img-full"/>
+<img data-src="{{site.baseurl}}/images/musicvideo/kanyebear.jpg" alt="Takashi" class="img-full lazyload" />
 <p class="imgDesc">Graduation | Drawn by Takashi</p>
 
 We wanted simple illustrations filled with color and detailed illustrations of where we wanted the viewer to focus on.
 
-<img src="{{site.baseurl}}/images/musicvideo/taskashi1.png" alt="Takashi"/>
+<img class="lazyload" data-src="{{site.baseurl}}/images/musicvideo/taskashi1.png" alt="Takashi"/>
 <p class="imgDesc">Sketches we drew inspiration from | Drawn by Takashi</p>
 
 <h3>Reflection</h3>
