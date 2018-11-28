@@ -10,6 +10,7 @@ description: "Creating a service for expecting mothers during the course 'Servic
 pageurl: "https://vimeo.com/301678302"
 categories: cases cases-featured
 category: School
+focus: User research & UI Design
 image: "servicedesign/notice.jpg"
 ---
 <h2>Final artefact</h2>

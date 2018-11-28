@@ -10,6 +10,7 @@ description: "Freelance for Bybellino building their ecommerce website and help 
 categories: cases
 pageurl: "http://bybellino.com"
 category: Work
+focus: Design
 image: "bellino/product.jpg"
 ---
 <h3>What is Bybellino?</h3>

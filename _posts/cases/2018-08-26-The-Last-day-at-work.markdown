@@ -10,6 +10,7 @@ description: "Creating a new game for the course 'Games and Play' at Malmö Univ
 pageurl: "https://youtu.be/DVEXzfAYacM"
 categories: cases cases-featured
 category: School
+focus: Physical prototyping & Coding
 image: "gamesnplay/gamesnplay.jpg"
 ---
 <h2>

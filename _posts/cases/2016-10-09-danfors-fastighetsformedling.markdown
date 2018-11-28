@@ -10,6 +10,7 @@ description: "Complete redesign of the realtor agency Danfors Fastighetsförmedl
 pageurl: "http://www.danfors.se"
 categories: cases cases-featured
 category: Work
+focus: UI Design & Code
 image: "danfors/sketch.png"
 ---
 <h3>1. Introduction & brief</h3>
