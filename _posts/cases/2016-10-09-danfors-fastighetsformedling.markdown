@@ -50,8 +50,6 @@ Most of the older people asked said that they were not intimidated by the proces
 <p>
 After these interviews I found it important to map what this all meant and how it would relate to the website. After a good session of mapping with post-it notes I wrote down the important bits that graphically the website should represent.
 </p>
-<img src="{{site.baseurl}}/images/danfors/sketch_tags.jpg" alt="Tags" class="img-full"/>
-<p class="imgDesc">Writing down the important words</p>
 <p>
 Important words that I wanted the design should embrace and put out were "Swedish", "traditional", "locally", "personal". <br>
 What did these words mean then? As Håkan said earlier, the company aims to be of most service through all the steps and go out of their way to ensure that the customer feels comfortable. The company also wanted to ensure that their current visual guidelines should be updated but be followed to be able to be recognized. <br></p>

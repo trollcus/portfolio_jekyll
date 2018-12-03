@@ -5,7 +5,7 @@
       <p>Cases and journal from school and work</p>
     </div>
     <div class="caselist" id="caselist">
-      {% for cases in site.categories.cases reversed %}
+      {% for cases in site.categories.cases %}
       <a href="{{site.baseurl}}{{cases.url}}" class="caselink">
         <div class="casebox">
           <img class="caseImgIMG lazyload" data-src="{{site.baseurl}}/images/{{cases.image}}" />
